@@ -14,29 +14,6 @@
 </head>
 	<body>
 		<div id="app">
-			<!--
-			<div class="item">
-				<p>
-					<a>1</a>
-					<a>张一</a>
-					<button @click='showBox(张一)'>显示</button>
-				</p>
-			</div>
-			<div class="item">
-				<p>
-					<a>2</a>
-					<a>李二</a>
-					<button @click='showBox(李二)'>显示</button>
-				</p>
-			</div>
-			<div class="item">
-				<p>
-					<a>3</a>
-					<a>王三</a>
-					<button @click='showBox(王三)'>显示</button>
-				</p>
-			</div>-->
-
 			<div class="item" v-for="(item,index) in items">
 				<p>
 					<a>{{item.id}}</a>
